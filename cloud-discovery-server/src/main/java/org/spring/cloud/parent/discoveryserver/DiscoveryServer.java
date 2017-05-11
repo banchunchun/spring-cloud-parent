@@ -27,6 +27,8 @@ public class DiscoveryServer implements CommandLineRunner{
 
         application.setRegisterShutdownHook(true);
 
+
+
         application.run(args);
 
         Runtime.getRuntime().addShutdownHook(new Thread(){
