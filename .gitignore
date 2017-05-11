@@ -12,5 +12,4 @@ IgnoreLexer.java~
 .gradle
 *.jar
 *.class
-/cloud-discovery-server/target/
-/cloud-config-server/target/
+target/
