@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: cloud-config-server
+
+
+
+  cloud:
+    config:
+      server:
+        bootstrap: true
+        git:
+          uri: https://github.com/banchunchun/cloud-config-repo.git
+          username: banchunchun
+          password: wapban521334
