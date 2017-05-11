@@ -1,4 +1,4 @@
-package org.spring.cloud.parent.discoveryserver;
+package org.spring.cloud.configserver.discoveryserver;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;

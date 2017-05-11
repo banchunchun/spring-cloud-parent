@@ -10,5 +10,7 @@ spring:
         bootstrap: true
         git:
           uri: https://github.com/banchunchun/cloud-config-repo.git
-          username: banchunchun
-          password: wapban521334
+          username:    #你的git 帐号
+          password:    #你的git密码
+          clone-on-start: true
+          search-paths: ['{application}','{application}/{profile}']
